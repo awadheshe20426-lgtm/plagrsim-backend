@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+!.env*.example
+backend/.env.docker
+uploads/
+
+# runtime state / local backups
+celerybeat-schedule
+*.bak-*
